@@ -1022,7 +1022,6 @@ PlayerSection:AddSlider({
 
 local RunService = game:GetService("RunService")
 RunService.RenderStepped:Connect(function()
-	game.workspace.CurrentCamera.FieldOfView = _G.FOVLoop
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = _G.JumpPower
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = _G.WalkSpeedLoop
 
